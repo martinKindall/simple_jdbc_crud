@@ -1,4 +1,4 @@
-package com.codigomorsa.crud.controllers;
+package com.codigomorsa.crud;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
