@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: crud-example
+
+datasource:
+  my-connection:
+    jdbc-url: jdbc:postgresql://localhost:5432/os_systems
+    username: walrus
+    password: 12345
+    maximum-pool-size: 10
+    pool-name: "crud-pool"
+    auto-commit: true
+
