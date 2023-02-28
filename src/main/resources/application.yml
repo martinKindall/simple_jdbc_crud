@@ -3,6 +3,8 @@ spring:
     name: crud-example
 
 datasource:
+  customs:
+    query-timeout: 20
   my-connection:
     jdbc-url: jdbc:postgresql://localhost:5432/os_systems
     username: walrus
@@ -10,4 +12,5 @@ datasource:
     maximum-pool-size: 10
     pool-name: "crud-pool"
     auto-commit: true
+
 
