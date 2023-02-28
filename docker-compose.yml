@@ -9,7 +9,6 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - c:/docker_shared/my_crud:/var/lib/postgresql/data
       - ./src/test/resources/db/init.sql:/docker-entrypoint-initdb.d/create_tables.sql
 
   adminer:

@@ -8,3 +8,5 @@ create table os (
 
   CONSTRAINT os_name_uniq UNIQUE (name)
 );
+
+insert into os (name) values ('FreeBSD'), ('Debian'), ('UNIX'), ('xv6');
